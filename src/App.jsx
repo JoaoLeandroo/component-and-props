@@ -11,6 +11,8 @@ function App() {
         </div>
         <main>
           <Card tittle="Galaxia" content="Descubra tudo sobre Galaxias espirais" author="Spider Newton"/>
+          <Card tittle="Planetas" content="Os maiores exoplanetas descobertos" author="Stehan" classEdit="card2"/>
+          <Card tittle="Buracos Negros" content="Primeiro buraco negro descoberto" author="Victoria"/>
         </main>
     </>
   )

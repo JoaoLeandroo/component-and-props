@@ -11,7 +11,8 @@
     padding: 10px;
     background-color: rgb(95, 5, 95);
     position: relative;
-    transition: all 0.3s ease;
+    margin: 10px;
+    transition: all 0.3s ease-in-out;
 }
 
 .section-card h2 {
@@ -29,4 +30,8 @@
     max-height: 220px;
     height: 100%;
     cursor: pointer;
+}
+
+.card2 {
+    background-color: orange;
 }
