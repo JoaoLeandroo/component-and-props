@@ -1,0 +1,32 @@
+
+
+.section-card {
+    max-width: 300px;
+    width: 90%;
+    min-height: 180px;
+    max-height: 200px;
+    height: 90%;
+    box-shadow: 4px 4px 4px black;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgb(95, 5, 95);
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+.section-card h2 {
+    color: #fff;
+}
+
+.section-card span {
+    position: absolute;
+    bottom: 10px;
+}
+
+.section-card:hover {
+    width: 100%;
+    max-width: 320px;
+    max-height: 220px;
+    height: 100%;
+    cursor: pointer;
+}
